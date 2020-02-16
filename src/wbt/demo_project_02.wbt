@@ -1,0 +1,35 @@
+#VRML_SIM R2020a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.6929277367730473 0.692927736773057 0.19925436813568637 0.786714013751295
+  position 1.4185632182535395 1.2284589821611933 1.736777736290625
+}
+DirectionalLight {
+  direction 0 -1 0
+  intensity 2
+  castShadows TRUE
+  castLensFlares TRUE
+}
+RectangleArena {
+}
+TurtleBot3Burger {
+  hidden position_0_2 0.19537732747084663
+  hidden translation_8 0.08 0.033 0
+  hidden translation_9 -0.08 0.033 0
+  translation 4.857193193225778e-09 -0.0003920004897091725 0.26000206888209343
+  rotation 0.9999972106279734 1.3745410005933433e-05 -0.0023618948614019175 -0.004130114134365504
+}
+Solid {
+  translation 0 0.21 2.14118e-07
+  rotation 1 0 0 -1.5707953071795862
+  children [
+    Shape {
+      appearance Copper {
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+}
